@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #f9f9f9;
+  height: 868px;
 `;
 
 export const Wrap = styled.div``;
@@ -40,7 +41,7 @@ export const ImageSilderBox = styled.div`
 
 export const SliderImages = styled.img`
   width: 150px;
-  height: 200px;
-  margin-left: 50px;
+  height: 280px;
+  padding-left: 50px;
   border-radius: 10px;
 `;
