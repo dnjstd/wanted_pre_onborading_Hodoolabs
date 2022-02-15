@@ -1,7 +1,7 @@
 import * as S from './OnAirClass_Style';
 import Fade from 'react-reveal/Fade';
 
-export default function OnAirClass() {
+export default function OnAirClass(): JSX.Element {
   return (
     <S.Container>
       <Fade buttom>
