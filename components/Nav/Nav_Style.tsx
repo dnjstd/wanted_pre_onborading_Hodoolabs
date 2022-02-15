@@ -4,7 +4,6 @@ export const Container = styled.header`
   position: fixed;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
   max-width: 1140px;
   height: 80px;
   margin-left: 390px;

@@ -5,21 +5,23 @@ export default function Nav() {
     <S.Container>
       <S.LogoWrapper>
         <S.LogoImage />
-        <S.Logo>땅콩스쿨</S.Logo>
+        <S.Logo>
+          <a href="/">땅콩스쿨</a>
+        </S.Logo>
       </S.LogoWrapper>
       <S.CategoryWrapper>
         <S.Category>
-          <a>도서구매</a>
+          <a href="/">도서구매</a>
         </S.Category>
         <S.Category>
-          <a>장바구니</a>
+          <a href="/">장바구니</a>
         </S.Category>
         <S.Category>|</S.Category>
         <S.Category>
-          <a>이용권 관리</a>
+          <a href="/">이용권 관리</a>
         </S.Category>
         <S.Category>
-          <a>로그인/회원가입</a>
+          <a href="/">로그인/회원가입</a>
         </S.Category>
       </S.CategoryWrapper>
     </S.Container>
