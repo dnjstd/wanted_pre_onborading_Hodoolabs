@@ -1,7 +1,22 @@
 import type { NextPage } from 'next';
 import * as S from './ReadBookChallenge_Style';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const ReadBookChallenge: NextPage = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1,
+    pauseOnHover: false,
+    arrows: false,
+    centerpadding: '0px',
+  };
   return (
     <>
       <S.Container>
@@ -15,7 +30,8 @@ const ReadBookChallenge: NextPage = () => {
               <pre> 독서를 통해 배움의 즐거움을 알아가 보세요.</pre>
             </S.DiarySubText>
           </S.DiaryTextContainer>
-          <S.ImageSilderBox>
+
+          <Slider {...settings}>
             <S.SliderImages src="images/section11-1.png" />
             <S.SliderImages src="images/section11-2.png" />
             <S.SliderImages src="images/section11-3.png" />
@@ -26,7 +42,7 @@ const ReadBookChallenge: NextPage = () => {
             <S.SliderImages src="images/section11-8.png" />
             <S.SliderImages src="images/section11-9.png" />
             <S.SliderImages src="images/section11-10.png" />
-          </S.ImageSilderBox>
+          </Slider>
         </S.Wrap>
       </S.Container>
     </>
