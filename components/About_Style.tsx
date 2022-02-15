@@ -12,9 +12,13 @@ export const Container = styled.section`
   color: #fff;
 `;
 
+export const Wrapper = styled.div``;
+
 export const Logo = styled.img.attrs({
   src: '/images/path88.png',
 })`
+  width: 100%;
+  margin: 0 auto;
   width: 94px;
   height: 60px;
   margin-bottom: 30px;
