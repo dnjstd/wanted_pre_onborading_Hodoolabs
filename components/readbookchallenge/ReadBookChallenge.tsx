@@ -8,14 +8,14 @@ const ReadBookChallenge: NextPage = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1,
+    autoplaySpeed: 0,
     pauseOnHover: false,
     arrows: false,
-    centerpadding: '0px',
+    cssEase: 'linear',
   };
   return (
     <>
@@ -30,7 +30,6 @@ const ReadBookChallenge: NextPage = () => {
               <pre> 독서를 통해 배움의 즐거움을 알아가 보세요.</pre>
             </S.DiarySubText>
           </S.DiaryTextContainer>
-
           <Slider {...settings}>
             <S.SliderImages src="images/section11-1.png" />
             <S.SliderImages src="images/section11-2.png" />
