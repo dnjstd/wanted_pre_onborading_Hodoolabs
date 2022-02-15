@@ -1,4 +1,22 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+export const Move = keyframes`
+  0% {
+    bottom:50px;
+  }
+  /* 30% {
+    bottom:20px;
+  } */
+  50% {
+    bottom:0px;
+  }
+  /* 70% {
+    bottom:20px;
+  } */
+  100% {
+    bottom:50px;
+  }
+`;
 
 export const Container = styled.section`
   position: relative;
@@ -40,10 +58,8 @@ export const Line = styled.img.attrs({
 `;
 
 export const MouseAnimation = styled.div`
-  /* width: 3.8%; */
-  /* min-width: 48px; */
   position: absolute;
-  animation: 0.7s ease-in 0s infinite alternate none running motion;
+  animation: ${Move} 1.5s ease-in 0s infinite;
   display: block;
   bottom: 0px;
   left: 50%;
@@ -54,9 +70,6 @@ export const MouseAnimation = styled.div`
 export const Mouse = styled.img.attrs({
   src: '/images/mouse.png',
 })`
-  /* position: absolute; */
-  /* margin: 0 auto; */
-  /* bottom: 50px; */
   width: 72px;
   height: 72px;
 `;
