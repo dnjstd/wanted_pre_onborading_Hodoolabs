@@ -16,6 +16,7 @@ export const DiaryTextContainer = styled.div`
   flex-direction: column;
   color: #333333;
   left: calc(50% - 586px / 2);
+  margin-top: 150px;
 `;
 
 export const DiaryText = styled.div`
