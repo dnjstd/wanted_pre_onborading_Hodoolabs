@@ -4,11 +4,12 @@
 
 ### 땅콩스쿨 홈페이지 메인 화면 개발
 
+
 <br/>
 
 ## 배포 링크
 
-<a href="">배포 링크</a>
+<a href="https://eager-albattani-04a7aa.netlify.app/">배포 링크</a>
 
 <br/><br/>
 
@@ -37,7 +38,6 @@
 ## 역할
 
 - [`김재호`]
-
   - Next.js를 사용한 프로젝트 구현
   - Figma를 참고한 메인레이아웃 구현
   - React-slick을 이용한 자동 무한슬라이드 구현
