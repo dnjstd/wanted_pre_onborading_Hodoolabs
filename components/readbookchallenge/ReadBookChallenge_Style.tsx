@@ -17,6 +17,7 @@ export const DiaryText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
   margin-bottom: 50px;
   font-size: 50px;
   line-height: 70px;
