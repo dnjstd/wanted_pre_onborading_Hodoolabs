@@ -4,6 +4,7 @@ export const Container = styled.section`
   position: relative;
   width: 100%;
   height: 647px;
+  background-color: #f9f9f9;
 `;
 
 export const TextWrapper = styled.div`
