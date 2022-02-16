@@ -26,7 +26,7 @@
 
 ### 적용 기술
 
-- Front-End: TypeScript, Nest.js, React.js, React Router, Styled-Component, react-reveal
+- Front-End: TypeScript, Next.js, React.js, React Router, Styled-Component, react-reveal
 - Common: netlify
 
 ### 소통 툴
