@@ -43,8 +43,8 @@
   - React-slick을 이용한 자동 무한슬라이드 구현
 
 - [`원소연`]
-  - Nest.js 초기 세팅
-  - Figma 참고하여 메인, Nav,Footer 레이아웃 구현
+  - Next.js 초기 세팅
+  - Figma 참고하여 메인, Nav, Footer 레이아웃 구현
   - react-reveal 라이브러리를 활용하여 Text FadeIn 애니메이션 구현
   - keyframes를 활용하여 첫 화면 Mouse Scroll Down 애니메이션 구현
 
