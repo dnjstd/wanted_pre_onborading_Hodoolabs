@@ -52,6 +52,7 @@
   - Figma 참고하여 메인, Nav, Footer 레이아웃 구현
   - react-reveal 라이브러리를 활용하여 Text FadeIn 애니메이션 구현
   - keyframes를 활용하여 첫 화면 Mouse Scroll Down 애니메이션 구현
+  - netlify 프로젝트 배포
 
 <br/><br/>
 
